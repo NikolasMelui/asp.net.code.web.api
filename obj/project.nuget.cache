@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d6eKx67Wx8SsBWlw5BER3C6wAFogiu9KeGPAMjU6AovVPBNxwkO7xAZ5isj8GAb6D5BHievQL4r5sSLqI/eRKw==",
+  "dgSpecHash": "xmOL9zDFd1+/lLQBW/Ext8pxH2lPzHC25a7E7N2ntZE0/TGxsW9qlIGGvkPQZru3zekoyq1lVVXSTM7o5aMsxQ==",
   "success": true,
   "projectFilePath": "/Users/nikolasmelui/prog/TodoApi/TodoApi.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/Users/nikolasmelui/.nuget/packages/microsoft.entityframeworkcore/3.1.7/microsoft.entityframeworkcore.3.1.7.nupkg.sha512",
     "/Users/nikolasmelui/.nuget/packages/microsoft.entityframeworkcore.abstractions/3.1.7/microsoft.entityframeworkcore.abstractions.3.1.7.nupkg.sha512",
     "/Users/nikolasmelui/.nuget/packages/microsoft.entityframeworkcore.analyzers/3.1.7/microsoft.entityframeworkcore.analyzers.3.1.7.nupkg.sha512",
+    "/Users/nikolasmelui/.nuget/packages/microsoft.entityframeworkcore.inmemory/3.1.7/microsoft.entityframeworkcore.inmemory.3.1.7.nupkg.sha512",
     "/Users/nikolasmelui/.nuget/packages/microsoft.entityframeworkcore.relational/3.1.7/microsoft.entityframeworkcore.relational.3.1.7.nupkg.sha512",
     "/Users/nikolasmelui/.nuget/packages/microsoft.entityframeworkcore.sqlserver/3.1.7/microsoft.entityframeworkcore.sqlserver.3.1.7.nupkg.sha512",
     "/Users/nikolasmelui/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.7/microsoft.extensions.caching.abstractions.3.1.7.nupkg.sha512",

@@ -98,6 +98,18 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/3.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
         "type": "package",
         "dependencies": {
@@ -1681,6 +1693,20 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.3.1.7.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.1.7": {
+      "sha512": "tzNo8eJVLq6NkJ5+pd2EEqtEM5tS1GQpd0btZtIOoGyJwCivv2MgT2eQEAbmyfcCAwnizxZnCAQaEeef6+uWDw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/3.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.3.1.7.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
@@ -5646,7 +5672,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= *"
+      "Microsoft.EntityFrameworkCore.InMemory >= *",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.7"
     ]
   },
   "packageFolders": {
@@ -5684,9 +5711,13 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[*, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[3.1.7, )"
           }
         },
         "imports": [
